@@ -1,0 +1,149 @@
+:root {
+    --header            : #4f276a;
+    --list-item-bg      : #e3ccff;
+    --header-nav-text   : #afa4c0;
+    --list-item-bg-hover: #6b398c;
+    --list-item-bg-focus: #542d6e;
+  }
+  
+  html,
+  body {
+    background-color        : #f1f1f1;
+    font-family             : Arial, Helvetica, sans-serif;
+    margin                  : 0;
+    padding                 : 0;
+    min-height              : 100vh;
+    line-height             : 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-size               : 100%;
+  }
+  /* This is where your CSS starts
+     ========================================================================== */
+
+     header{
+        display: flex;
+        background-color: #6b398c; 
+     }
+     
+
+     .logo{
+        color: white;
+        gap: 15px;
+        align-items: center;
+        padding: 5px 0 5px 10px;
+        display: flex;
+        margin-left: 30px;
+     }
+
+     .logo img{
+        max-width: 40px;
+     }
+
+     
+     header nav{
+        flex:1 1 auto;
+        display: flex;
+        justify-content: end;   
+
+     }
+
+     header nav ul{
+        margin-right: 30px;
+     }
+
+     header ul{
+        list-style-type: none;
+        margin: 25px 0;
+        padding: 0;
+        display: flex;
+        gap:16px;
+        align-items: center;
+     }
+
+     header nav ul a{
+        text-decoration: none;
+        color:#afa4c0;
+        font-family: arial;
+        font-weight: 300;
+        padding-right: 5px;
+     }
+
+     header nav ul a:hover{
+        color: rgb(255, 20, 196);
+     }
+
+     header nav ul a:active{
+        color: pink;
+        
+     }
+     header nav ul a:focus{
+     color: #c408ba;
+    }
+
+    section h3{
+        font-family: arial;
+        margin-bottom: 35px;
+    }
+ 
+    section ul{
+        list-style-type: none;
+        color:#afa4c0; 
+        padding: 0px;
+
+    }
+
+    #list{
+        margin: 40px;
+
+    }
+
+    #list ul{
+        border: 2px solid white;
+        border-radius: 2px;
+    }
+
+    .list li{
+        padding: 15px;
+        border-bottom: 2px solid white;
+        background-color:#e3ccff;
+    }
+
+    .list{
+        box-shadow:1px 1px 10px 10px rgba(112, 110, 110, 0.336); 
+    }
+
+    .list li:last-child{
+        
+         border-bottom: 0;
+    }
+
+    .w250{
+        width: 250px;
+    }
+
+    .list li:hover{
+        color:#e3ccff;
+        background-color:#6b398c;
+     }
+
+     .list li:active{
+        color:white;
+        background-color: #4f276a;
+     }
+
+     .list li:focus{
+     color:white;
+    }
+
+    
+
+    
+
+
+   
+
+
+
+
+
+
